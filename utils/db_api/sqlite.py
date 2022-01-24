@@ -82,10 +82,3 @@ class Database:
         self.execute("DELETE FROM Users WHERE TRUE", commit=True)
 
 
-def logger(statement):
-    print(f"""
-_____________________________________________________        
-Executing: 
-{statement}
-_____________________________________________________
-""")
